@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Exercises</title>
+    <style>
+         body {
+            background-image: url('PinkBackground.jpg');
+        }
+
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+
+        th, td {
+            width: 100px;
+        }
+        .center-text {
+            text-align: center;
+        }
+    </style>
 </head>
-<body style="background-image: url('PinkBackground.jpg');">
-    <br />
+<body>
+    <br/>
     <nav>
-        
-        <h3 style="text-align: center; font-family: Stencil; font-size: 20">Tweenstagram</h3>
-            <p style="text-align: center; font-family: cinzel;">
+        <h3 style="text-align: center; font-family: Stencil; font-size: 20px">Tweenstagram</h3>
+        <p style="text-align: center; font-family: cinzel;">
                 <a href="#">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="#">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="#">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
+        </p>
     </nav>
 
     <figure>
-        <h3 style="text-align: center;">
         <img src="Ghosting.jpg " alt="Ghosting Image" width="300" height="200">
-        <figcaption>Ghosting!</figcaption>
-        </h3>
+        <figcaption style="text-align: center;">Ghosting!</figcaption>
     </figure>
      
-</body>
+
 <form action="/submit" method="post">
    <header>
       <div>
@@ -46,44 +62,40 @@
     <p style="text-align: center;">Copyright 2024 - All Rights Reserved</p>>
 </footer>
 
-<body>
-    <table border="2">
-        <tr align="center">
-            <th width="100">Name</th>
-            <th width="100">Age</th>
-            <th width="100">City</th>
+<table style="border: 2px solid black; border-collapse: collapse; width: 100%;">
+        <tr style="text-align: center;">
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
 
         </tr>
-        <tr align="center">
+        <tr style="text-align: center;">
             <td>Percival Archer Riego</td>
             <td>30</td>
             <td>Costa Leona</td>
 
         </tr>
-        <tr align="center">
+        <tr style="text-align: center;">
             <td>Riguel Jameson Alleje</td>
             <td>28</td>
             <td>Alegria</td>
 
         </tr>
-        <tr align="center">
+        <tr style="text-align: center;">
             <td>Elijah Riley Montefalco</td>
             <td>26</td>
             <td>Cagayan De Oro</td>
         </tr>
     </table>
-</body>
-<h3 style="text-align: center;">Video</h3>
-<video width="450" height="250" autoplay muted controls>
-<source src="CuteVid.mp4" type="video/mp4">
 
-</video>
-<body>
+    <h3 style="text-align: center;">Video</h3>
+    <video width="450" height="250" autoplay muted controls>
+        <source src="CuteVid.mp4" type="video/mp4">
+    </video>
+
     <h3 style="text-align: center;">Audio</h3>
      <audio controls>
       <source src="CuteAudio.mp3" type="audio/mpeg">
      </audio>
 </body>
-
-
 </html>
