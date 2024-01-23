@@ -5,35 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Exercises</title>
 </head>
-<body background="PinkBackground.jpg">
+<body style="background-image: url('PinkBackground.jpg');">
     <br />
     <nav>
         
-        <h3 align="center">
-            <font face="Stencil" size="5">Tweenstagram</font>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <font face="cinzel">
+        <h3 style="text-align: center; font-family: Stencil; font-size: 20">Tweenstagram</h3>
+            <p style="text-align: center; font-family: cinzel;">
                 <a href="#">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="#">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="#">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            </font>
-        </h3>
+            </p>
     </nav>
 
     <figure>
-        <h3 align="center">
-        <img src="Ghosting.jpg"
-        width="300px" height="200px">
-        
+        <h3 style="text-align: center;">
+        <img src="Ghosting.jpg " alt="Ghosting Image" width="300" height="200">
         <figcaption>Ghosting!</figcaption>
         </h3>
     </figure>
      
 </body>
 <form action="/submit" method="post">
-<header>
-    <h3>
-    <section>
+   <header>
+      <div>
         <label for="Username">Username :</label>
         <input type="text" id="username" name="username" required><br><br>
         <label for="Password">Password :</label>
@@ -45,14 +39,12 @@
         <label for="female">Female</label><br><br>
         <label for="terms">Accept Terms and Conditions:</label>
         <input type="checkbox" id="terms" name="terms" required><br><br>
-
-    </section>
-    <footer>
-        <p>Copyright 2024 - All Rights Reserved</p>
-    </footer>
-    </h3>
-</header>
+     </div>
+    </header>
 </form>
+<footer>
+    <p style="text-align: center;">Copyright 2024 - All Rights Reserved</p>>
+</footer>
 
 <body>
     <table border="2">
@@ -81,14 +73,13 @@
         </tr>
     </table>
 </body>
-<h3 align="top center">Video</h3>
-<video width="450" height="250"
-autoplay muted controls>
+<h3 style="text-align: center;">Video</h3>
+<video width="450" height="250" autoplay muted controls>
 <source src="CuteVid.mp4" type="video/mp4">
 
 </video>
 <body>
-    <h3 align="top center">Audio</h3>
+    <h3 style="text-align: center;">Audio</h3>
      <audio controls>
       <source src="CuteAudio.mp3" type="audio/mpeg">
      </audio>
