@@ -39,27 +39,28 @@
         </p>
     </nav>
 
-    <figure>
+    <figure style="display: flex; align-items: center; justify-content: center;">
+
         <img src="Ghosting.jpg " alt="Ghosting Image" width="300" height="200">
-        <figcaption style="text-align: center;">Ghosting!</figcaption>
     </figure>
+    <figcaption style="text-align: center;">Ghosting!</figcaption>
 
-
-    <form action="/submit" method="post">
+    <br>
+    <form style="display: flex; align-items: center;justify-content: center;" action="/submit" method="post">
         <header>
             <div>
                 <label for="Username">Username :</label>
                 <input type="text" id="Username" name="username" required><br><br>
                 <label for="Password">Password :</label>
                 <input type="text" id="Password" name="password" required><br><br>
-                <label for="Gender">Gender :</label>
-                <input type="radio" id="Gender" name="gender" value="male" required>
-                <label for="male">Male</label>
-                <input type="radio" id="male" name="gender" value="male">
+                <p>Gender :
+               
+                <label for="male"></label>
+                    <input type="radio" id="male" name="gender" value="male">Male
 
-                <label for="female">Female</label><br><br>
-                <input type="radio" id="female" name="gender" value="female">
-
+                <label for="female"></label>
+                    <input type="radio" id="female" name="gender" value="female">Female
+            </p>
                 <label for="terms">Accept Terms and Conditions:</label>
                 <input type="checkbox" id="terms" name="terms" required><br><br>
             </div>
@@ -96,14 +97,19 @@
     </table>
 
     <h3 style="text-align: center;">Video</h3>
+    <div style="display: flex; align-items: center; justify-content: center;">
     <video width="450" height="250" autoplay muted controls>
         <source src="CuteVid.mp4" type="video/mp4">
     </video>
+</div>
 
     <h3 style="text-align: center;">Audio</h3>
+
+    <div style="display: flex; align-items: center; justify-content: center;">
     <audio controls>
         <source src="CuteAudio.mp3" type="audio/mpeg">
     </audio>
+</div>
 </body>
 
 </html>
