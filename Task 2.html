@@ -9,74 +9,96 @@
     <style type="text/css">
          .background {
           background:lightgrey;
+          width: 200px;
+          height: 200px;
+          position: relative;
+         }
+         .canvas {
+            position: relative;
          }
          .head {
-            background: #fff;
-            border-color: black;
+            background: rgba(255, 255, 255, 0.5);
+            border:2px solid rgba(0, 0, 0, 0.5);
             width: 100px;
             height: 100px;
-            position: relative;
-         }
-         .pupil {
-            color: black;
-            position:absolute ;
-            top: 10px;
-            left: 10px;
-         }
-         .break {
-            color: red;
             position: absolute;
             top: 50px;
+            left: 50px;
+         }
+         .eyeball {
+            width: 20px;
+            height: 20px;
+            background: rgba(238, 130, 238, 0.85);
+            border-radius: 50%;
+            position: absolute;
+            top: 35px;
+            left: 40px;
+         }
+         .pupil {
+            display: inline-block;
+            color: black;
+            font-size: 20px;
+            position:absolute ;
+            top: 4px;
+            left: 6px;
+         }
+         .break {
+            color: rgba(255, 0, 0, 0.5);
+            position: absolute;
+            top: 50px;
+            left: 75px;
          }
          .body {
-            background: #fff;
+            background: rgba(255, 255, 255, 0.5);
             width: 100px;
             height: 100px;
-            position: relative;
+            position: absolute;
+            top: 120px;
+            left: 50px;
          }
          .wing {
             color: green;
             position: absolute;
-            top: 50px;
-            left: 40px;
+            top: 60px;
+            left: 15px;
          }
          .drumstick {
             color: brown;
             position: absolute;
-            top: 50px;
-            left: 40px;
+            top: 80px;
+            left: 5px;
          }
          .drumstick-right {
             color: brown;
             position: absolute;
-            top: 50px;
-            left: 60px;
+            top: 80px;
+            left: 85px;
          }
-    </style>
-    <div class="canvas background">
-        <div class="air background"></div>
-        <div class="head">
-            <div class="eyeball">
-                <span class="pupil">&middot;</span>
-            </div>
-            <div class="break">
-               <strong>&gt;</strong>
-            </div>
-        </div>
-        <div class="body">
-         <div class="wing">
-        <strong>&lt;
-        </strong>
+      </style>
+   </head>
+   <body>
+       <div class="canvas background">
+           <div class="air background"></div>
+           <div class="head">
+               <div class="eyeball">
+                   <span class="pupil">&middot;</span>
+               </div>
+               <div class="break">
+                  <strong>&gt;</strong>
+               </div>
+           </div>
+           <div class="body">
+               <div class="wing">
+                   <strong>&lt;</strong>
+               </div>
+           </div>
+           <div class="drumstick">
+               <div class="drumstick"></div>|
+               <br />/|
+           </div>
+           <div class="drumstick drumstick-right">
+               <br />/|
+           </div>
        </div>
-       </div>
-       <div class="drumstick">
-        <div class="drumstick"></div>|
-         <br />/|
-        </div>
-        <div class="drumstick drumstick-right">
-           <br />/|
-        </div>
-    </div>
-    </div>
-</body>
-</html>
+   </body>
+   </html> 
