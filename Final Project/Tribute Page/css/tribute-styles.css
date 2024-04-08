@@ -48,6 +48,29 @@ color: #74638f;
     }
 }
 
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#image-caption {
+    margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
 #headline {
     margin: 50px 0;
     text-align: center;
