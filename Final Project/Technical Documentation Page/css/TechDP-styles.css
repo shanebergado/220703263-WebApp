@@ -29,3 +29,38 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+#nav li a:hover {
+    text-decoration: underline;
+}
+
+#main-doc {
+    padding: 20px;
+}
+
+.main-section {
+    margin-bottom: 30px;
+}
+
+.main-section header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-section p {
+    margin-bottom: 10px;
+}
+
+.main-section ul {
+    margin-bottom: 10px;
+}
+
+.main-section code {
+    background-color: #f4f4f4 ;
+    padding: 5px;
+}
+
+.article {
+    margin-bottom: 30px;
+}
