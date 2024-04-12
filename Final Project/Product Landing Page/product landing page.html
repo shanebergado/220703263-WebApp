@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
+    <link rel="stylesheet" href="ProductLP-styles.css">
 </head>
 <body>
-    
+    <header id =header>
+        <img src="logo.png" alt="Logo" id="header-img">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </nav>
+    </header>
+    <section id="features">Feature Section</section>
+    <section id="how-it-works">
+        <video id="video" controls>
+            <source src="product-demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section id="pricing">Pricing Section</section>
+    <form id="form">
+        <input type="email" placeholder="Enter your email address" required>
+        <input type="submit" id="submit">
+    </form>
 </body>
 </html>
