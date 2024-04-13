@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="ProductLP-styles.css">
+    <link rel="stylesheet" href="/Final Project/Product Landing Page/css/productlanding.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header id =header>
@@ -13,19 +14,51 @@
             <a class="nav-link" href="#features">Features</a>
             <a class="nav-link" href="#how-it-works">How It Works</a>
             <a class="nav-link" href="#pricing">Pricing</a>
+           
         </nav>
     </header>
-    <section id="features">Feature Section</section>
-    <section id="how-it-works">
-        <video id="video" controls>
-            <source src="product-demo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <section id="features">
+        <h2>Why Choose Zip & Swirl?</h2>
+        <p>Authentic Ingredients, Memorable Flavors</p>
+        <ul>
+            <li>Organic Tea Leaves</li>
+            <li>Non-diary milk options available</li>
+            <li>Freshly made tapioca perls</li>
+        </ul>
     </section>
-    <section id="pricing">Pricing Section</section>
-    <form id="form">
-        <input type="email" placeholder="Enter your email address" required>
-        <input type="submit" id="submit">
-    </form>
+
+    <section id="how-it-works">
+        <h2>How To Enjoy Our Milktea</h2>
+        <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5zdGLNSMIMQ?si=P--esI8vWcWuxtqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
+        <p>Learn to make your milktea just right!</p>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="card">
+            <h3>Classic Milktea</h3>
+            <p>110 php</p>
+        </div>
+        <div class="card">
+            <h3>Signature Swirl</h3>
+            <p>From 120 php</p>
+            <p>Find out our seasonal Flavors!</p>
+        </div>
+    </section>
+
+    <section id="subscribe">
+        <h2>Subscribe to Receive Updates!</h2>
+
+        <form  id="form" action="thankyouform.html" method="get">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+
+
+    </section>
+>
+<script src="script.js"></script>     
 </body>
 </html>
